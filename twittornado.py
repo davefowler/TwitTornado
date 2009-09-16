@@ -26,8 +26,8 @@ import uuid
 
 from tornado.options import define, options
 
-twitter_consumer_key = 'oaBDbZtsmcJ6nno45AA5w'
-twitter_consumer_secret = 'L5KH4UuMTwwh6CIb9rRI7TNsEtlPdAJAfgBokmXVYc'
+twitter_consumer_key = ''
+twitter_consumer_secret = ''
 
 
 define("port", default=80, help="run on the given port", type=int)
