@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/> 
+    <title>TwitTornado</title>
+    <link rel="stylesheet" type="text/css" href="{{ static_url('twittornado.css') }}" />
+  </head>
+  <body>
+    <table align="center">
+      <tr valign="middle">
+	<td valign="middle" align="left">
+	  <h1 align="center">TwitTornado</h1>
+
+	  <h2>Description</h2>
+	  
+	      <p>TwitTornado is a real-time Twitter Client build with FriendFeed/Facebook's new <a href="http://tornadoweb.org/">Tornado Framework</a></p>
+
+	      <p>There are two significant advantages that Tornado brings to Twitter:</p>
+	      <ol>
+		<li>Tweets made on TwitTornado will be sent to other TwitTornado clients instananeously.</li>
+		<li>There is no need to refresh.  Your stream is automatically updated with the other non-TwitTornado tweets in 30 second intervals.</li>
+	      </ol>
+	      
+
+	      <h2>About</h2>
+		<p>I created Twitbrowse as an exercise to learn Tornado.  It is an awesome framework!</p>
+		
+		<p>I've open sourced the code as an example for others.  You can <a href="http://github.com/godavemon/TwitTornado">find the source at github.</a>  If you make improvements to the functionality or design be sure to make a pull request and I'll update on the live server.</p>
+		<p align="right"><a href="http://twitter.com/__dave"><i>Dave Fowler</i></a></p>
+	      <p><a href="/auth/login"><img class="noborder" border="0" src="{{ static_url('twitter-login.png') }}"/></a></p>
+	
+	</td>
+      </tr>
+    </table>
+    
+    <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10699224-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+  </body>
+</html>

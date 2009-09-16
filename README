@@ -1,0 +1,49 @@
+DESCRIPTION
+
+TwitTornado is a real-time Twitter Client build with FriendFeed/Facebook's new Tornado Framework
+
+There are two significant advantages that Tornado brings to Twitter:
+
+   1. Tweets made on TwitTornado will be sent to other TwitTornado clients instananeously.
+   2. There is no need to refresh. Your stream is automatically updated with the other non-TwitTornado tweets in 30 second intervals.
+
+ABOUT
+
+I created Twitbrowse as an exercise to learn Tornado. It is an awesome framework!
+
+I've open sourced the code as an example for others. You can find the source at github. If you make improvements to the functionality or design be sure to make a pull request and I'll update on the live server.
+
+
+
+REQUIREMENTS:
+
+  - You need to have Tornado installed.  clone it from github here http://github.com/facebook/tornado
+
+     git clone git://github.com/facebook/tornado.git  
+
+  - You also need to have TwitTornado source.  Clone it from github here http://github.com/godavemon/TwitTornado
+
+     git clone git://github.com/godavemon/TwitTornado.git  
+
+
+CONFIGURATION:
+
+   You will need to obtain twitter oauth keys for your app from  http://twitter.com/oauth
+
+   Edit the twitter_consumer_key and twitter_consumer_secret variables in twittornado.py with your app's values
+   
+   You may also want to configure the port variable (default = 80)
+
+
+RUNNING:
+
+  $ git clone git://github.com/godavemon/TwitTornado.git  
+  $ cd TwitTornado
+  $ python twittornado.py
+
+
+
+Again, if you fork and improve the app make sure to let me know by doing a pull request and I will deploy it to the live site at TwitTornado.com! 
+
+Dave Fowler
+

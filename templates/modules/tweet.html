@@ -1,0 +1,17 @@
+
+
+<tr class="tweet {% if twittornado %}twittornado{% end %}" id="tweet-{{tweet['id']}}">
+
+
+<td class="user {{tweet['user']['id']}}">
+  <img src="{{ tweet['user']['profile_image_url'] }}" />  
+</td>
+<td>
+  <div class="text">{{ escape(tweet["text"]) }}</div>
+  <div class="subtext">
+    Posted at <div class="created_at">{{tweet["created_at"]}}</div> from 
+   <div class="source">{{tweet["source"]}}</div>
+  </div>
+</td>
+
+</tr>
