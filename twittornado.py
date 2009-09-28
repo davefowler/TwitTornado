@@ -30,7 +30,7 @@ twitter_consumer_key = ''
 twitter_consumer_secret = ''
 
 
-define("port", default=80, help="run on the given port", type=int)
+define("port", default=8080, help="run on the given port", type=int)
 
 define("twitter_consumer_key", help="The consumer key for Twitter", default="oaBDbZtsmcJ6nno45AA5w")
 define("twitter_consumer_secret", help="The consumer secret", default="L5KH4UuMTwwh6CIb9rRI7TNsEtlPdAJAfgBokmXVYc")
